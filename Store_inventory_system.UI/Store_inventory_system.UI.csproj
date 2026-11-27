@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Store_inventory_system</RootNamespace>
+    <AssemblyName>Store_inventory_system</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store_inventory_system.BLL\Store_inventory_system.BLL.csproj" />
+    <ProjectReference Include="..\Store_inventory_system.DLL\Store_inventory_system.DLL.csproj" />
+  </ItemGroup>
+
+</Project>

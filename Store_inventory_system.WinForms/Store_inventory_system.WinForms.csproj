@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Store_inventory_system.WinForms</RootNamespace>
+    <AssemblyName>Store_inventory_system_WinForms</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store_inventory_system.BLL\Store_inventory_system.BLL.csproj" />
+    <ProjectReference Include="..\Store_inventory_system.DLL\Store_inventory_system.DLL.csproj" />
+  </ItemGroup>
+
+</Project>
